@@ -1,0 +1,66 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+% Formatting
+\begin{document}
+
+%==========================
+% Top section with image + contact info
+%==========================
+\begin{minipage}{0.25\textwidth}
+    \includegraphics[width=3.5cm, height=4.5cm]{git photo.jpg} 
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.72\textwidth}
+    {\LARGE \textbf{SAIKAT BISWAS}}\\
+    Hapania, Nagarukhra\\
+    Haringhata, Nadia, 741257\\
+    Phone: +91 7699266206\\
+    Email: \href{mailto:biswassaikat374@gmail.com}{biswassaikat374@gmail.com}\\
+    Website: \href{https://sketch.com/vision}{https://sketch.com/vision}
+\end{minipage}
+
+
+\vspace{1em}
+\section*{Education}
+\begin{tabularx}{\textwidth}{|l|X|l|}
+\hline
+\textbf{Degree} & \textbf{Institution} & \textbf{Year} \\
+\hline
+M.Sc. in Artificial Intelligence & OpenAI University & 2023 \\
+\hline
+B.Tech. in Computer Science & Neural Network Institute & 2021 \\
+\hline
+\end{tabularx}
+
+\vspace{1em}
+\section*{Awards and Achievements}
+\begin{itemize}[leftmargin=1.5em]
+    \item Best Conversational AI Award – AI Global Conference, 2024
+    \item Top Performer in Natural Language Understanding Benchmarks, 2023
+    \item Recognized for Human-like Text Generation by NLP Association
+\end{itemize}
+
+\vspace{1em}
+\section*{Skills}
+\textbf{Languages:} English (Fluent), Multilingual Understanding (200+ languages)\\
+\textbf{Programming:} Python, LaTeX, JSON, Markdown, API integration\\
+\textbf{Tools:} PyTorch, TensorFlow, Hugging Face Transformers, VS Code
+
+\vspace{1em}
+\section*{Activities and Interests}
+\begin{itemize}[leftmargin=1.5em]
+    \item Engaging in meaningful conversations with users around the world
+    \item Researching and summarizing cutting-edge AI papers
+    \item Assisting with creative writing, coding, and learning
+\end{itemize}
+
+\end{document}
